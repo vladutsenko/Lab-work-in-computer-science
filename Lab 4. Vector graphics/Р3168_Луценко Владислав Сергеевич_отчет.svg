@@ -4,7 +4,7 @@
      xmlns="http://www.w3.org/2000/svg"
      xmlns:xlink="http://www.w3.org/1999/xlink"
      xmlns:ev="http://www.w3.org/2001/xml-events"
-     width="100%" height="850">
+     width="850" height="850">
 
 <!-- Цветовые подложки -->
 <rect x="200" y="280" width="400" height="320" fill="brown" />
@@ -42,5 +42,16 @@
 <!-- Окно -->
 <line x1="320" y1="360" x2="320" y2="520" stroke="black" />
 <line x1="400" y1="360" x2="400" y2="520" stroke="black" />
+
+<!-- Труба -->
+<polygon fill="gray" points="520,230 520,120 600,120 600,270" />
+<line x1="520" y1="230" x2="520" y2="120" stroke="black" />
+<line x1="600" y1="270" x2="600" y2="120" stroke="black" />
+<line x1="520" y1="120" x2="600" y2="120" stroke="black" />
+
+<!--Крыша -->
+<polygon fill="brown" points="200,280 400,150 600,280" />
+<path d="M 80 320 C 160 310, 440 160, 440 80" stroke="brown" stroke-width="10" fill="none" />
+<path d="M 720 320 C 680 330, 360 160, 360 80" stroke="brown" stroke-width="10" fill="none" />
 
 </svg>
